@@ -1,0 +1,37 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  min-width: 0;
+}
+
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+.card1 {
+  background-color: #ba9898;
+}
+.card2 {
+  background-color: #5b9ba3;
+}
+.card3 {
+  background-color: #bf7990;
+}
+.card4 {
+  background-color: #a07227;
+}
+.card5 {
+  background-color: #38793d;
+}
+.card6 {
+  background-color: #9c2dad;
+}
